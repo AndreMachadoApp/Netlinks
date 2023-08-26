@@ -404,7 +404,15 @@ a {
   z-index: 2;
 }
 
+
 /* Queries */
+
+@media(max-width: 1500px) {
+  .homeicon {
+    padding-right: 50px;
+    float: right;
+  }
+}
 
 @media(max-width: 500px) {
   .container .card .mensagem {
