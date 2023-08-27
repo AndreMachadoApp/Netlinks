@@ -1,0 +1,50 @@
+.container-contato {
+    padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .mains-chamados-contato {
+    width: 100%;
+  }
+  
+  .card-contato {
+    flex-basis: 23.33%;
+    background-color: #141414;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    font-size: 1.125rem;
+    transition: background-color 0.2s ease-in;
+  }
+  
+  .card-contato:hover {
+    background-color: #fff;
+    color: #141414;
+    transition: background-color 0.2s ease-in, color 0.2s ease-in; /* Adicione a transição para manter o efeito suave */
+  }
+  
+  
+  /* Media Queries */
+  @media (max-width: 800px) {
+    .container-contato {
+      padding-top: 50px;
+    }
+  
+    .card-contato {
+      flex-basis: 100%;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .container-contato {
+      padding-top: 50px;
+    }
+  }
