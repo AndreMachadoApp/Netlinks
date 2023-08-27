@@ -179,7 +179,7 @@
   
   /* FOOTER */
   footer {
-    padding: 340px;
+    padding: 0;
     text-align: center;
     color: var(--dark);
     margin: 10px;
