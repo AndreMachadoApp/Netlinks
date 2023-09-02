@@ -1,87 +1,82 @@
 .main-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 100px;
-}
-
-.containerChamado {
-  background-color: var(--primaria);
-  padding: 0px;
-  border-radius: 5px;
-  text-align: left;
-}
-
-.containerChamado p {
-  font-size: 1.125rem;
-  margin-bottom: 10px;
-  color: #fff;
-  padding-bottom: 20px;
-}
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  /* Outras propriedades flexbox, se necessário */
-}
-
-.abrir-chamado {
-  background-color: #E50914;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  font-size: 1rem;
-  cursor: pointer;
-  transition: background-color 0.2s ease-in;
-}
-
-.abrir-chamado:hover {
-  background-color: #141414;
-}
-
-.footer-chamados {
-  padding-top: 700px;
-  text-align: center;
-  color: var(--clara2);
-  margin: 10px;
-  clear: both; /* Limpa o float anterior */
-}
-
-.chamadosub {
-  padding-top: 300px;
-}
-
-@media(max-width: 800px) {
-
-  .containerChamado {
-    background-color: var(--primaria);
-    padding-top: 2px;
-    border-radius: 5px;
-    text-align: center;
-  }
-  .main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding-top: 100px;
-    display: block;
-    padding: 0;
   }
-  .main-container p {
-    padding: 9px;
-    text-align: justify;
-  }
-}
-
-@media(max-width: 650px) {
+  
   .containerChamado {
-    background-color: var(--primaria);
-    padding-top: 2px;
+    background-color: #141414;
+    padding: 0px;
     border-radius: 5px;
-    text-align: center;
+    text-align: left;
   }
-  .main-container {
-    padding-top: 10px;
+  
+  .containerChamado p {
+    font-size: 1.125rem;
+    margin-bottom: 10px;
+    color: #fff;
+    padding-bottom: 20px;
   }
+  
+  .abrir-chamado {
+    background-color: #E50914;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in;
+  }
+  
+  .abrir-chamado:hover {
+    background-color: #141414;
+  }
+  
   .footer-chamados {
-    padding-top: 4px;}
-}
-
+    padding-top: 700px;
+    text-align: center;
+    color: var(--dark);
+    margin: 10px;
+    clear: both; /* Limpa o float anterior */
+  }
+  
+  .chamadosub {
+    padding-top: 300px;
+  }
+  
+  @media(max-width: 800px) {
+  
+    .containerChamado {
+      background-color: #141414;
+      padding-top: 2px;
+      border-radius: 5px;
+      text-align: center;
+    }
+    .main-container {
+      padding-top: 100px;
+      display: block;
+      padding: 0;
+    }
+    .main-container p {
+      padding: 9px;
+      text-align: justify;
+    }
+  }
+  
+  @media(max-width: 650px) {
+    .containerChamado {
+      background-color: #141414;
+      padding-top: 2px;
+      border-radius: 5px;
+      text-align: center;
+    }
+    .main-container {
+      padding-top: 10px;
+    }
+    .footer-chamados {
+      padding-top: 4px;}
+  }
+  
+  
