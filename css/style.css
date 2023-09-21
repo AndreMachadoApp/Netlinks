@@ -57,11 +57,8 @@
   
   
   #logo img {
-    margin: 0 auto; 
-    text-transform: uppercase;
-    max-width: 100%;
-    width: 130px;
-    height: 60px;
+    width: 240px; /* Aqui aumenta/ diminui o tamanho do logo */
+    height: auto; /* Para manter a proporção da imagem */
   }
   
   
